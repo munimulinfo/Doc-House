@@ -90,7 +90,7 @@ const Services = () => {
           <div>
             <h1 className="font-bold text-xl">Our Locations</h1>
             <p>
-              Dhanmondi 17, Dhaka -1200, <br /> Bangladesh
+              Dhanmondi 17, Dhaka -1200, <br /> Bangladesh Dhaka
             </p>
           </div>
         </div>
