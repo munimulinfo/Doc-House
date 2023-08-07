@@ -1,11 +1,12 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import Footer from '../Pages/Home/Shared/Footer/Footer';
 
 const Main = () => {
     return (
         <div>
-            Hello Developers
             <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     );
 };
