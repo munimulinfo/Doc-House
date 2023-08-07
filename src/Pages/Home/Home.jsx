@@ -17,7 +17,9 @@ const Home = () => {
               delectus esse ipsa. Veniam illo, sint saepe at officiis magni
               dolores vitae quia itaque architecto?
             </p>
-            <button className="px-4 py-2 bg-[#F7A582] mt-5 rounded-md">All Service</button>
+            <button className="px-4 py-2 bg-[#F7A582] mt-5 rounded-md">
+              All Service
+            </button>
           </div>
           <div className="">
             <img src={image} alt="" />
