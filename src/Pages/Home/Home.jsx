@@ -1,9 +1,10 @@
 import React from 'react';
+import Expert from '../Expert doctor/Expert';
 
 const Home = () => {
     return (
         <div>
-            hlw 
+            <Expert></Expert>
         </div>
     );
 };
