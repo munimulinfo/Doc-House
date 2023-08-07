@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../assets/banner.png";
+import Services from "../../components/Services/Services";
 
 const Home = () => {
   return (
@@ -26,6 +27,10 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+          {/* others home sections  */}
+          <Services />
+          
     </div>
   );
 };
