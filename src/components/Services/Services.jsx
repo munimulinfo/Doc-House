@@ -1,12 +1,13 @@
 import React from "react";
 import { FaLocationArrow, FaPhone, FaStopwatch } from "react-icons/fa";
+import den from '../../../public/den.png'
 const Services = () => {
   return (
     <div className="mx-28 my-12">
       <div className="md:flex gap-5">
         <div className="ml-16">
           <img
-            className="w-[1300px] h-[710px] rounded-md"
+            className="w-[1300px] h-[740px] rounded-md"
             src="https://img.freepik.com/free-photo/smiling-blonde-female-doctor-poses-blue-gloves-studio_8353-5068.jpg?w=360&t=st=1691387552~exp=1691388152~hmac=5286d92c1abeece9c647c8c004c16d21a83505cac17c7a5eece5b726be7b10b3"
             alt=""
           />
@@ -24,19 +25,21 @@ const Services = () => {
               dicta sunt explicabo.
             </p>
             <div className="border border-gray-300 flex justify-between my-3 rounded-lg">
-              <div className="py-6 px-3 text-xl font-bold bg-orange-400 rounded-md">
+              <div className="py-4 px-3 text-xl font-bold bg-orange-400 rounded-md">
                 Cavity Protection
               </div>
-              <div className="py-6 px-3 text-xl font-bold">
+              <div className="py-4 px-3 text-xl font-bold">
                 Cosmetic Dentisty
               </div>
-              <div className="py-6 px-3 text-xl font-bold">Oral Surgery</div>
+              <div className="py-4 px-3 text-xl font-bold">Oral Surgery</div>
             </div>
           </div>
           {/* 2nd div  */}
           <div>
             <img
-              className="w-[430px] h-[230px] rounded-lg"
+              className="w-[590px] h-[260px] rounded-lg"
+              // src={den}
+              // alt=""
               src="https://img.freepik.com/free-photo/white-teeth_144627-6525.jpg?w=740&t=st=1691387606~exp=1691388206~hmac=c86871e237ea9f8a0b56fadfe117a71bd2b5020f1b473d126c319d043d23d505"
               alt=""
             />
