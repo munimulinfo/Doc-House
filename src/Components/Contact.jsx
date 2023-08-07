@@ -2,9 +2,9 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section className='bg-green-900 py-20 my-10 text-white rounded'>
-       <div className='mx-auto max-w-7xl'>
-       <div className='grid lg:grid-cols-2 gap-4'>
+        <section className='bg-green-900 py-20 my-10 text-white rounded sm:px-4 md:px-4'>
+       <div className='mx-auto max-w-7xl '>
+       <div className='grid lg:grid-cols-2 gap-4 '>
             <div className='space-y-4'>
                 <h1 className='text-4xl font-medium'>Contact With Us</h1>
                 <p className='pr-20'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus minima laboriosam, ipsum corporis totam corrupti?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus minima laboriosam, ipsum corporis totam corrupti?
