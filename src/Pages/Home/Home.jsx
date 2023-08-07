@@ -16,7 +16,7 @@ const Home = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatum debitis minus, obcaecati velit labore excepturi
               delectus esse ipsa. Veniam illo, sint saepe at officiis magni
-              dolores vitae quia itaque architecto?
+              dolores vitae quia itaque architecto?.
             </p>
             <button className="px-4 py-2 bg-[#F7A582] mt-5 rounded-md">
               All Service

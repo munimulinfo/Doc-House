@@ -3,11 +3,11 @@ import { FaLocationArrow, FaPhone, FaStopwatch } from "react-icons/fa";
 // import den from '../../../public/den.png'
 const Services = () => {
   return (
-    <div className="max-w-screen-xl px-5 mx-auto mt-24">
+    <div className="max-w-screen-xl px-5 mx-auto my-32">
       <div className="md:flex gap-5">
-        <div className="ml-16">
+        <div className="md:ml-16">
           <img
-            className="w-[1300px] h-[740px] rounded-md"
+            className="md:w-[1300px] w-full h-[740px] rounded-md"
             src="https://img.freepik.com/free-photo/smiling-blonde-female-doctor-poses-blue-gloves-studio_8353-5068.jpg?w=360&t=st=1691387552~exp=1691388152~hmac=5286d92c1abeece9c647c8c004c16d21a83505cac17c7a5eece5b726be7b10b3"
             alt=""
           />
@@ -17,7 +17,7 @@ const Services = () => {
         <div className="space-y-6 text-left">
           {/* 1st div  */}
           <div>
-            <h1 className="text-3xl font-bold mb-2">Our Services</h1>
+            <h1 className="text-3xl font-bold mb-2 text-black">Our Services</h1>
             <p className="text-[#537696] text-justify">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -25,13 +25,15 @@ const Services = () => {
               dicta sunt explicabo.
             </p>
             <div className="border border-gray-300 flex justify-between my-3 rounded-lg">
-              <div className="py-4 px-3 text-xl font-bold bg-orange-400 rounded-md">
+              <div className="py-4 px-3 text-xl font-bold bg-orange-400 rounded-md text-black">
                 Cavity Protection
               </div>
-              <div className="py-4 px-3 text-xl font-bold">
+              <div className="py-4 px-3 text-xl font-bold text-black">
                 Cosmetic Dentisty
               </div>
-              <div className="py-4 px-3 text-xl font-bold">Oral Surgery</div>
+              <div className="py-4 px-3 text-xl font-bold text-black">
+                Oral Surgery
+              </div>
             </div>
           </div>
           {/* 2nd div  */}
@@ -46,7 +48,9 @@ const Services = () => {
           </div>
           {/* 3 rd div  */}
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold">Electro Gastrology Therapy</h1>
+            <h1 className="text-3xl font-bold text-black">
+              Electro Gastrology Therapy
+            </h1>
             <p className="text-[#537696] text-justify">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -66,7 +70,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="my-16 text-white flex justify-around px-14 ml-2 gap-5">
+      <div className="my-16 text-white md:flex justify-around md:px-14 md:ml-2 gap-5">
         <div className="flex bg-[#07332F] px-8 py-9 gap-5 rounded-md w-80">
           <div className="text-3xl">
             <FaStopwatch />
@@ -86,7 +90,7 @@ const Services = () => {
           <div>
             <h1 className="font-bold text-xl">Our Locations</h1>
             <p>
-              Dhanmondi 17, Dhaka -1200, <br /> Bangladesh
+              Dhanmondi 17, Dhaka -1200, <br /> Bangladesh Dhaka
             </p>
           </div>
         </div>
