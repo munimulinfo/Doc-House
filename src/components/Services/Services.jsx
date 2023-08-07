@@ -1,9 +1,9 @@
 import React from "react";
 import { FaLocationArrow, FaPhone, FaStopwatch } from "react-icons/fa";
-import den from '../../../public/den.png'
+// import den from '../../../public/den.png'
 const Services = () => {
   return (
-    <div className="mx-28 my-12">
+    <div className="max-w-screen-xl px-5 mx-auto mt-24">
       <div className="md:flex gap-5">
         <div className="ml-16">
           <img
